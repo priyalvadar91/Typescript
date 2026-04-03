@@ -1,0 +1,8 @@
+let a:number[] = [23,12,0,0,24,4,0,0,0,5];
+for(let i=a.length-1;i>=0;i--){
+    if(a[i]===0){
+        a.splice(i,1);
+        a.unshift(0);
+    }
+}
+console.log(a)

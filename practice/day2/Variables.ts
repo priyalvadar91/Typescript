@@ -18,8 +18,9 @@ console.log(age1+"..."+age2);
 
  */
 // var - we do not use this in modern js/ts
-// const - if we want to change the value of variable
-// let - if do not want to change the avlue of varibale
+
+// const - if do not want to change the value of varibale
+// let - if we want to change the value of variable
 
 // Scope - 1. Functional scope(var) and 2. block scope( let and const)
 
